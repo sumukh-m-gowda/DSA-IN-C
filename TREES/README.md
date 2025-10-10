@@ -84,3 +84,4 @@ Each of these data structures will be described in detail in subsequent pages, i
 
 * Interactive animations of insertions and deletions.
 * Guides on how to implement them in code.
+<img width="1448" height="845" alt="image" src="https://github.com/user-attachments/assets/32b16f9a-cd60-4046-a2ed-36c9f7df52c0" />
