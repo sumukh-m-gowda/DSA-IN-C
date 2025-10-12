@@ -4,7 +4,7 @@
  *     int val;
  *     struct TreeNode *left;
  *     struct TreeNode *right;
- * };
+ * }; 
  */
 int maxDepth(struct TreeNode* root) {
     if (root == NULL)
