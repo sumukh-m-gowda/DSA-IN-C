@@ -1,3 +1,23 @@
+// 🧩 Priority Queue Functions — Short Notes
+// 🔹 insertMin()
+// Inserts a new element into the Min Heap (smallest element = highest priority).
+// Adds it at the end, then calls heapifyUpMin() to restore heap order (move it upward if smaller than parent).
+// 🔹 insertMax()
+// Inserts a new element into the Max Heap (largest element = highest priority).
+// Adds it at the end, then calls heapifyUpMax() to restore heap order (move it upward if larger than parent).
+// 🔹 extractMin()
+// Removes and returns the smallest element (root) from the Min Heap.
+// Replaces root with the last element, reduces heap size, then calls heapifyDownMin() to restore heap property.
+// 🔹 extractMax()
+// Removes and returns the largest element (root) from the Max Heap.
+// Replaces root with the last element, reduces heap size, then calls heapifyDownMax() to restore heap property.
+// 🔹 displayMinHeap()
+// Prints all elements currently in the Min Heap array (level-order).
+// Helps visualize the current structure of the Min Heap.
+// 🔹 displayMaxHeap()
+// Prints all elements currently in the Max Heap array (level-order).
+// Helps visualize the current structure of the Max Heap.
+
 #include <stdio.h>
 #include <stdlib.h>
 
